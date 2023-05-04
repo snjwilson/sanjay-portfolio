@@ -1,0 +1,28 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(./fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: local("Poppins"), url(./fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: local("Poppins"), url(./fonts/Poppins-Black.ttf) format("truetype");
+}
+
+h1 {
+  color: rgb(246, 100, 100);
+  font-style: italic;
+}
