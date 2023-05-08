@@ -11,6 +11,10 @@
   "author": "Sanjay Wilson",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -20,6 +24,7 @@
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.2",
     "webpack": "^5.81.0",
