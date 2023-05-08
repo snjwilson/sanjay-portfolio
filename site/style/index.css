@@ -3,6 +3,15 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #fff;
+  line-height: 1.6;
+  /* background-color: linear-gradient(20deg, rgb(33, 33, 33), rgb(66, 66, 66)); */
+  background: linear-gradient(20deg, rgb(33, 33, 33), rgb(66, 66, 66));
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 @font-face {
@@ -23,6 +32,31 @@ html {
 }
 
 h1 {
-  color: rgb(246, 100, 100);
-  font-style: italic;
+  margin: 0;
+  /* margin: 0;
+  padding: 0; */
+  /* color: rgb(246, 100, 100); */
+  font-size: 5rem;
+  font-weight: 70;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 50;
+}
+
+section {
+  height: 100vh;
+  padding: 0 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
