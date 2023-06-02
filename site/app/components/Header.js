@@ -42,7 +42,7 @@ export const Header = () => {
         <a onClick={() => scrollTo(0, 1000)}>About me</a>
         <a onClick={() => scrollTo(0, 2000)}>Technologies</a>
         <a onClick={() => scrollTo(0, 3000)}>Experience</a>
-        <a>Work</a>
+        <a onClick={() => scrollTo(0, 4000)}>Work</a>
       </Stack>
     </>
   );

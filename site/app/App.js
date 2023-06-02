@@ -5,6 +5,7 @@ import { AboutMe } from "./components/AboutMe";
 import { Technologies } from "./components/Technologies";
 import { Experience } from "./components/Experience";
 import { Footer } from "./components/Footer";
+import { Work } from "./components/Work";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <AboutMe />
       <Technologies />
       <Experience />
+      <Work />
       <Footer />
     </>
   );
