@@ -1,7 +1,7 @@
 {
-  "name": "test-app",
+  "name": "sanjay-portfolio",
   "version": "1.0.0",
-  "description": "teting react bundling",
+  "description": "Sanjay's Home",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
