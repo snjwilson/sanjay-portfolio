@@ -3,7 +3,7 @@ import JavaScriptLogo from "../../dist/images/JavaScript-logo.png";
 import ReactLogo from "../../dist/images/React-logo.png";
 import NodeLogo from "../../dist/images/NodeJS-logo.png";
 import MongoDBLogo from "../../dist/images/MongoDB-logo.png";
-import TypeScriptLogo from "../../dist/images/TypeScript-logo.png";
+import TypeScriptLogo from "../../dist/images/Typescript-logo.png";
 import { Stack } from "@mui/material";
 
 export const Technologies = () => {
