@@ -3,7 +3,7 @@ import { Stack, Typography } from "@mui/material";
 
 export const Experience = () => {
   return (
-    <section>
+    <section id="experience">
       <Stack sx={{ textAlign: "left" }}>
         <>
           <h2>INFOSYS LIMITED</h2>

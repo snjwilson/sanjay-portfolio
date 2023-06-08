@@ -5,7 +5,7 @@ import { red, green } from "@mui/material/colors";
 
 export const AboutMe = () => {
   return (
-    <section>
+    <section id="about-me">
       <h2>
         Software developer with{" "}
         <Looks3Icon sx={{ fontSize: 40, color: green[400] }} /> years of

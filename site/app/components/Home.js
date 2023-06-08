@@ -8,7 +8,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 export const Home = () => {
   return (
-    <section>
+    <section id="home">
       <h1>Welcome to Sanjay's Home</h1>
       <Avatar
         alt="Sanjay Profile Picture"

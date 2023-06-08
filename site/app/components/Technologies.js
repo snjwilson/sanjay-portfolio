@@ -8,7 +8,7 @@ import { Stack } from "@mui/material";
 
 export const Technologies = () => {
   return (
-    <section className="white">
+    <section className="white" id="technologies">
       <Stack direction={"row"} className="technology-stack" spacing={5}>
         <img src={JavaScriptLogo} alt="JavaScript Logo"></img>
         <img src={TypeScriptLogo} alt="TypeScript Logo" />

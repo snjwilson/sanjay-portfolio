@@ -22,6 +22,12 @@ export const Header = () => {
     });
   };
 
+  const handleScroll = (section) => {
+    const sectionComp = document.getElementById(section);
+    console.log(sectionComp);
+    sectionComp.scrollIntoView();
+  };
+
   return (
     <>
       <Stack
@@ -38,11 +44,11 @@ export const Header = () => {
         }}
         className={scrollY > 0 ? "black" : "no-black"}
       >
-        <a onClick={() => scrollTo(0, 0)}>Home</a>
-        <a onClick={() => scrollTo(0, 1000)}>About me</a>
-        <a onClick={() => scrollTo(0, 2000)}>Technologies</a>
-        <a onClick={() => scrollTo(0, 3000)}>Experience</a>
-        <a onClick={() => scrollTo(0, 4000)}>Work</a>
+        <a onClick={() => handleScroll("home")}>Home</a>
+        <a onClick={() => handleScroll("about-me")}>About me</a>
+        <a onClick={() => handleScroll("technologies")}>Technologies</a>
+        <a onClick={() => handleScroll("experience")}>Experience</a>
+        <a onClick={() => handleScroll("work")}>Work</a>
       </Stack>
     </>
   );
