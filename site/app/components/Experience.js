@@ -5,12 +5,21 @@ export const Experience = () => {
   return (
     <section id="experience">
       <Stack sx={{ textAlign: "left" }}>
+      <>
+          <h2>IBM INDIA SOFTWARE LABS</h2>
+          <div className="experience-vertical-line">
+            <Stack direction={"column"} justifyContent={"space-between"}>
+              <Typography />
+              <span>{"Software Developer Oct 2023 - Present"}</span>
+            </Stack>
+          </div>
+        </>
         <>
           <h2>INFOSYS LIMITED</h2>
           <div className="experience-vertical-line">
             <Stack direction={"column"} justifyContent={"space-between"}>
               <Typography />
-              <span>{"Associate consultant Jan 2023 - Present"}</span>
+              <span>{"Associate consultant Jan 2023 - Sep 2023"}</span>
               <span>{"Associate Business Analyst Oct 2021 - Dec 2022"}</span>
             </Stack>
           </div>
@@ -25,22 +34,6 @@ export const Experience = () => {
           </div>
         </>
       </Stack>
-      {/* <ul>
-        <li>
-          <h2>INFOSYS LIMITED</h2>
-        </li>
-        <li>
-          <div className="experience-vertical-line">
-            <Stack direction={"column"} justifyContent={"space-between"}>
-              <span>{"Associate consultant (Jan 2023 - Present)"}</span>
-              <span>{"Associate Business Analyst Oct 2021 - Dec 2022"}</span>
-            </Stack>
-          </div>
-        </li>
-        <li>
-          <h2>BAZINGA MEDIA PRIVATE LIMITED</h2>
-        </li>
-      </ul> */}
     </section>
   );
 };
