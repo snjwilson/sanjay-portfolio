@@ -113,3 +113,11 @@ footer {
   background-color: #fff;
   padding: 4rem;
 }
+
+.work-link {
+  color: #63ace5;
+}
+
+.work-link:hover {
+  cursor: pointer;
+}
